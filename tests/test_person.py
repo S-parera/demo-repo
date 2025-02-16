@@ -3,8 +3,6 @@ import pytest
 
 from beings import Person
 
-# from person import Person
-
 # print(sys.path)
 
 def test_init():
