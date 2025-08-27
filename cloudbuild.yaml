@@ -2,3 +2,6 @@ steps:
   - name: 'alpine'
     entrypoint: 'echo'
     args: ['Hello World from Cloud Build!']
+
+options:
+  logging: CLOUD_LOGGING_ONLY
